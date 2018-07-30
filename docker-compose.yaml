@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-     simple-db-rest-service:
+     simple-web:
         build: ./
         volumes:
           - ./www/:/var/www/html/
