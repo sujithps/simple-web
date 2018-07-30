@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+     simple-db-rest-service:
+        build: ./
+        volumes:
+          - ./www/:/var/www/html/
+        ports:
+         - 5001:80
